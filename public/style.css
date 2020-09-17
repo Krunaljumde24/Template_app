@@ -1,0 +1,172 @@
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+  .content {
+    margin-top: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    line-height: 1.6;
+
+  }
+  .navbar .active a{
+    font-weight: 600;
+  }
+.active{
+  font-weight: 900;
+}
+   .imghero {
+     margin-left: 15%;
+     margin-right: auto;
+     padding:auto;
+     margin-top: 25%;
+    
+} 
+.navbar{
+  box-shadow: 1px 5px 10px -5px #f0a500;
+}
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  hr {
+    border: 1px solid #f0a500;
+  }
+
+  .card-deck {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .card{
+    margin: 0 auto;
+    max-width: 16rem;
+    max-height: 18rem;
+    border: 2px solid #f0a500;
+  }
+  
+  .cont-3{
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+ 
+  .carousel-item {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .carousel-card{
+    border:  none;
+  }
+  #form input{
+    border: 1px solid #f0a500;
+  }
+  #form textarea{
+    border: 1px solid #f0a500;
+  }
+  #form{
+    position: relative;
+    top: 5%;
+    left: 12%;
+  }
+  @media only screen and (max-width: 600px) {
+    #form{
+      position: relative;
+      top: 0%;
+      left: 0%;
+     margin: 0 auto;
+    }
+  }
+  textarea{
+    resize: none;
+  }
+  .store-logo{
+    position: relative;
+    top: 15%;
+    left: 15%;
+  }
+  @media only screen and (max-width: 600px) {
+    store-logo{
+      position: relative;
+      top: 0%;
+      left: 0%;
+      margin: 0 auto;
+    }
+  }
+ .foot-logo{
+  margin: 10px;
+  font-size: 30px;
+  color: #f0a500;
+ }
+ #fb,#insta,#twit{
+   font-size: 20px;
+ }
+ #map,#phone{
+  font-size: 15px;
+  color: #f0a500;
+ }
+ .btn-warn{
+   background-color:  #f8b422;
+   border: 1px solid black;
+ }
+ 
+ /* ----------------------------------------------------------------------------- */
+ /* Register css */
+
+
+ .frmcontainer {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frmregister input {
+  border: 1px solid #f0a500;
+}
+
+.frmregister {
+  margin-top: 3%;
+  padding: 20px;
+  border: 1px solid #f0a500;
+  border-radius: 8px;
+  box-shadow: 7px 7px 10px -5px #f0a500;
+}
+
+
+
+
+/* ------------------------------------------------------------------------------- */
+/* Login css */
+
+.frmcontainer {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frmlogin input {
+  border: 1px solid #f0a500;
+}
+.frmlogin {
+  margin-top: 3%;
+  padding: 20px;
+  width: 50%;
+  border: 1px solid #f0a500;
+  border-radius: 8px;
+  box-shadow: 7px 7px 10px -5px #f0a500;
+}
+
+@media only screen and (max-width: 600px) {
+  .frmlogin {
+      margin-top: 3%;
+      width: auto;
+      padding: 20px;
+      border: 2px solid #f0a500;
+      border-radius: 8px;
+  }
+}
+
